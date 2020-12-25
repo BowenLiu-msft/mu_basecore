@@ -63,7 +63,6 @@ Bug Fixes-dev
     - Is there still a late-lock whitelist?
     - Probably should keep this change since, ultimately, the VarPolicy will disable locking.
     - Upstream it as a Bugzilla that will go away when VarLock is dropped, anyway.
-* Check for MdeModulePkg.dsc BuildFlags that disable deprecated interfaces. Where'd these go?
 * 542d38fdeb ("Revert "CHERRY-PICK: MdeModulePkg/SetupBrowserDxe: Fix IsZeroGuid() ASSERT."", 2020-03-23)
     - Dropping this commit. Believe it's a bad vestige of a bad CHERRY-PICK that was reverted.
 
